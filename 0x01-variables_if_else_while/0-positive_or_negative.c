@@ -2,19 +2,22 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Determines if a number is positive, negative or zero.
+ * main - main block
+ * Description: Get a random numbr and print the number
+ * and if it is positive, negative, or zero
  * Return: 0
  */
-int main(voi)
+int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n", n);
+		printf("%i is positive\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", n);
+		printf("%i is negative\n", n);
 	else
-		printf("%d is zero\n", n);
+		printf("%i is zero\n", n);
 	return (0);
 }
