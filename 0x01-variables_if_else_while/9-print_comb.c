@@ -3,7 +3,7 @@
 /**
  * main - main block
  * Description: print all single numbers of bas 10
- * start from 0. begin with a new line after
+ * start from 0, begin with a new line after
  * Return: 0
  */
 int main(void)
